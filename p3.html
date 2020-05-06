@@ -1,40 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Project 3</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <title>Alexander Thornborough | P3 Generative Fiction</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
+    <link rel="stylesheet" href="style.css" />
+
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-  </head>  
+  </head>
+
   <body>
-    <nav>
+<!-- navigation menu -->
+    <div class="nav">
+      <h1><a href="index.html">Alexander</a></h1>
       <ul>
-        <li><a href = "p1.html">Project 1</a></li>
-        <li><a href = "p2.html">Project 2</a></li>
-        <li><a href = "p3.html">Project 3</a></li>
-        <li><a href = "p4.html">Project 4</a></li>
-        <li><a href = "p5.html">Project 5</a></li>
-        
-        
+        <li>
+          Project <a href="p1.html">#1</a>
+        </li>
+                <li>
+          Project <a href="p2.html">#2</a>
+        </li>
+                <li>
+          Project <a href="p3.html">#3</a>
+        </li>
+                <li>
+          Project <a href="p4.html">#4</a>
+        </li>
+                <li>
+          Project <a href="p5.html">#5</a>
+        </li>
       </ul>
-    </nav>
-    
-    <h1>
-      Project 3 :: Generative Fiction
-    </h1>
-    
-    <!--<div id = "large-box">  
-      <iframe src="https://editor.p5js.org/thora606/embed/lC4lnAX9"></iframe>
-    </div>-->
-    <div id = "large-box">  
-      <iframe src="https://editor.p5js.org/thora606/embed/XSqpVTMla"></iframe>
     </div>
     
+<!-- main content -->
+     <div class="content">
+      
+      <!-- 1. give your project  a titile -->
+      <div class = "bgBoxWire">
+      <h1>
+        Project #3 :: Generative Fiction
+      </h1>
+        <h2>
+          Automatic Dungeon Explorer  
+        </h2>
+        
+        
+      </div>
+      <!-- 2. embed your p5 sketch -->
+      
+      <iframe src="https://editor.p5js.org/thora606/embed/AKKq-sTsh"></iframe>
+      
+      <!-- 3. write a short description to describe what the work is about -->
+      <div class = "bgBox">
+      <p>
+        A narrative project making use of randomized text to generate a short story, with you as a randomly generated character traversing through a dungeon and fighting various monsters along your way. For this project, in addition to the generative text elements, I was particularly interested in trying to incorporate some 3d models into p5.js.
+      </p>
+      </div>
+        
+      <!-- 4. design process, include all process documentation of your projects -->
+      <div class = "bgBoxWire">
+      <h1>
+        Design Process
+      </h1>
+      
+      <h2>
+        Concept
+      </h2>
+      </div>
+        
+            <div class = "bgBox">
+            <p>
+        In terms of concepts, I really wanted something that would be flexible with added 3d models, so I thought a dungeon, and all the various discrete rooms it can provide, would be a good fit. Likewise, the swapping around of the various characters and monsters and their attributes was a subject that lended itself, I thought, to randomization.
+      </p>
+      </div>
+      
+      <img src ="https://i.imgur.com/GFxpxwO.png">
+      
+      
+      <div class = "bgBoxWire">
+      <h2>
+        Reflection
+      </h2>
+      </div>
+       <div class = "bgBox">
+       <p>
+         I was given a lot more time to do this project and it was much more complex than either of the two I had done previously so I'm fairly happy with the result, but at the same time there's lots of things I wish I had done differently. I spent a long time in the code using .csv files, having to script which row and column the necessary text would be on at length for every time they were used; later in the process, I started incorporating JSONs, which can do a lot of the same stuff enormously more simply, and I wish I had switched to them sooner. Conversely though, I uploaded those JSONs to a website that shut down midway through the project (not realizing you can simply upload them to the p5.js editor directly, and foolishly didn't have a backup, which was a big problem for my process.
+       </p>
+       </div>
+      
+       <img src ="https://i.imgur.com/vrdtSaQ.png">
+       
+       
+    </div>
   </body>
 </html>
